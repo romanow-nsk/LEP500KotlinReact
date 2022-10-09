@@ -25,9 +25,9 @@ suspend fun main(args: Array<String>) {
     document.body!!.appendChild(container)
     val api: RestAPIBase = RestAPIBase()
     api.ip="217.71.138.9"
-    api.port=4569
+    api.port=4567
     val ss = api.keepalive("1111111")
-    val userPair = api.login("9136666666","1234")
+    val userPair = api.login("9137777777","1234")
     var out = ""
     if (!userPair.valid())
         out = userPair.mes
